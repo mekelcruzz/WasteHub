@@ -1,0 +1,365 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'PT Sans';
+    
+    
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 100px 100px 100px 100px 100px 100px 35px;
+    background-color: rgb(206, 255, 189);
+  }
+
+  .top {
+    position: relative;
+    background-color: transparent;
+    grid-row: 1 / 3;
+    grid-column: 1 / 2;
+    font-size: 2em;
+    top: 1.3em;
+    left: 3em;
+  }
+  .t1 {
+    color: #3d9954;
+  }
+
+  .t2 {
+    color: #2c6e3c;
+  }
+
+  .mid {
+    position: relative;
+    background-color: transparent;
+    grid-row: 3/7;
+    grid-column: 1/2;
+    font-size: 3em;
+    left: 2em;
+  }
+  .b1 {
+    color: #1c7532;
+  }
+
+  .b2 {
+    color: #1a4224;
+  }
+  .b3 {
+    position: relative;
+    color: #3bc55e;
+    font-size: .3em;
+    top: -1.3em;
+  }
+  .b4{
+    position: relative;
+    position: relative;
+    color: #3bc55e;
+    font-size: .3em;
+    top: -4.4em;
+    left: 12.4em;
+  }
+  
+
+  .menu {
+    position: relative;
+    background-color: transparent;
+    grid-row: 1/8;
+    grid-column: 2/2;
+    overflow: hidden;
+    z-index: 2; /* Ensure the menu is above the wave */
+  }
+  
+  .menu-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  
+  
+  .image-button {
+    position: relative;
+    background: url('./assets/burger.png') no-repeat;
+    background-size: contain;
+    width: 2em;
+    height: 2em;
+    border: none;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: transparent;
+    border-radius: 10;
+    margin-top: 3em; /* Adjust margin as needed */
+    left: -5%;
+  }
+  
+  .menu-items {
+    position: absolute;
+    top: 0;
+    right: -100%;
+    background-color: rgba(53, 151, 40, 0.342);
+    height: 100%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center the items vertically */
+    align-items: center; /* Center the items horizontally */
+    transition: right .8s ease;
+    z-index: 100;
+  }
+  
+  .menu-items button {
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    margin-bottom: 10px;
+    font-size: 2em;
+    font-weight: 700;
+  }
+  .acc{
+    position: relative;
+    font-size: 2em;
+    font-weight: 700;
+  }
+
+  .acc a{
+    text-decoration: none;
+    color: #000000;
+  }
+
+  /* Create an underline using a pseudo-element */
+  .menu-items button::before {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    background-color: #000; /* Set the underline color */
+    bottom: 0;
+    left: 50%;
+    transition: width .5s ease-in-out; /* Add a smooth transition for the width */
+    transform: translateX(-50%);
+  }
+
+  /* Add a hover effect to expand the underline */
+  .menu-items button:hover::before {
+    width: 110%;
+  }
+
+  .image-button:hover + .menu-items,
+  .menu-items:hover {
+    right: 0; /* Move the menu items into the viewport on hover */
+  }
+
+  .anns {
+    position: absolute;
+    left: 20em;
+    top: 10em;
+    transform: translateX(-50%);
+    height: 60vh;
+    width: 75%;
+    background-color: #0cbe386e;
+  }
+
+  .anns input {
+    width: 100%;
+    height: 30em;
+    box-sizing: border-box;
+    border: none; /* Remove border */
+    background-color: rgb(0, 255, 55);
+    z-index: -10;
+    pointer-events: none; /* Make the input non-clickable */
+  } 
+  .anns ul{
+    position: relative;
+    left: 2em;
+    top: 2em;
+  }
+  .anns span{
+    position: relative;
+    left: 4.7em;
+    font-size: 2em;
+  }
+
+
+  .wave {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+    z-index: 1; /* Set the wave behind the menu */
+  }
+
+.wave svg {
+    position: relative;
+    top: 1em;
+    display: block;
+    width: calc(153% + 1.3px);
+    height: 500px;
+    transform: rotateY(180deg);
+}
+
+.wave .shape-fill {
+    fill: #58da74;
+}  
+  
+
+footer {
+  background-color: #58da74;
+  height: 30em;
+}
+
+.footer-socials {
+  height: 12em;
+  background: transparent;
+  align-items: center;
+}
+
+
+
+.socials button.fb {
+  position: relative;
+  top: 5em;
+  left: 38.5em;
+  background: url('./assets/facebook.png') no-repeat;
+  width: 3.5em; /* Adjust the width as needed */
+  height: 3.5em; /* Adjust the height as needed */
+  border: none;
+  cursor: pointer;
+  background-size: cover;
+  background-color: #58da74;
+  transition: transform 0.3s ease;
+}
+
+
+.socials button.email {
+  position: relative;
+  top: 5.6em;
+  left: 55.7em;
+  background: url('./assets/gmail.png') no-repeat;
+  width: 4.3em; /* Adjust the width as needed */
+  height: 4.3em; /* Adjust the height as needed */
+  border: none;
+  cursor: pointer;
+  background-size: cover;
+  background-color: #58da74;
+  transition: transform 0.3s ease;
+}
+
+.socials button:hover {
+  transform: translateY(-16px);
+}
+
+.a1{
+position: relative;
+top: 2.5em;
+width: 35%;
+color: rgb(0, 0, 0);
+border-color: rgb(0, 0, 0);
+}
+.a2{
+position: relative;
+top: 2.5em;
+right: -55em;
+width: 29.2em;
+color: black;
+border-color: rgb(0, 0, 0);
+
+}
+
+.newsletter {
+  position: relative;
+  text-align: center;
+  top: 15em;
+}
+.newsletter h1{
+  position: inherit;
+  font-size: 3em;
+  background-color: transparent;
+  top: -2em;
+  z-index: 5;
+}
+
+form {
+  position: relative;
+  text-align: center;
+  top: 15em;
+}
+
+.inputbox{
+  top: -20em;
+  position: relative;
+  width: 250px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  left: 40%;
+}
+.inputbox input{
+  position: inherit;
+  left: -6.5em;
+  top: 20em;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid rgb(0, 0, 0);
+  background: #58da74;
+  border-radius: 20px;
+  outline: none;
+  color: #000000;
+  font-size: 1em;
+}
+
+.inputbox span{
+  position: absolute;
+  
+  top: 20em;
+  padding: 10px;
+  left: -2em;
+  bottom: 2.8em;
+  pointer-events: none;
+  font-size: 1em;
+  text-transform: uppercase;
+  transition: .5s;
+  height: 1.5em;
+}
+
+.inputbox input:valid ~ span,
+.inputbox input:focus ~ span{
+  color: rgb(0, 68, 9);
+  transform: translateX(-45px) translateY(19px);
+  font-size: .9em;
+  padding: 0 10px;
+  background-color: #58da74;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+}
+.btn1 {
+  position: inherit;
+  top: 21em;
+  left: -6.5em;
+  width: 270px;
+  padding: 10px;
+  border: 1px solid rgb(0, 0, 0);
+  background: #58da74;
+  border-radius: 20px;
+  outline: none;
+  color: #000000;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s; /* Add a smooth transition effect */
+}
+
+.btn1:hover {
+  background-color: #4ca362; /* Change the background color on hover */
+}
+
+.btn1:active {
+  background-color: #3c7f4f; /* Change the background color on click */
+}
+

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WasteHub</title>
+  <link rel="stylesheet" href="account.css">
+</head>
+<body>
+  <section>
+    <div class="shape1"></div>
+    <div class="shape2"></div>
+    <div class="content">
+      <div class="signin" id="signin">
+        <h1 class="logo"><span class="t1">Waste</span><span class="t2">Hub</span></h1>
+        <h1>Welcome Back!</h1>
+        <p>To keep connected with us, please login your personal info</p>
+        <button class="log" onclick="login()">SIGN IN</button>
+      </div>
+      <div id="signup">
+        <h1>Create Account!</h1>
+        <form action="signup.php" method="post">
+          <input type="text" name="username" id="username" placeholder="Username" required><img class="icon" src="/assets/person.png" alt="user">
+          <input type="email" name="email" id="email" placeholder="Email" required><img class="icon" src="/assets/email.png" alt="email">
+          <button type="submit" class="btn">Sign up</button>
+        </form>
+      </div>
+      <div id="create">
+        <h1 class="logo"><span class="t1">Waste</span><span class="t2">Hub</span></h1>
+        <h1>Don't have an account?</h1>
+        <p>To keep connected with us, please register your personal info</p>
+        <button class="reg" onclick="register()">SIGN UP</button>
+      </div>
+      <div id="login">
+        <h1>Log into Account!</h1>
+        <form action="signin.php" method="post">
+          <input type="text" name="username" id="username" placeholder="Username" required><img class="icon" src="/assets/person.png" alt="username">
+          <input type="email" name="email" id="email" placeholder="Email" required><img class="icon" src="/assets/email.png" alt="email">
+          <button type="submit" class="btn">Sign in</button>
+        </form>
+      </div>
+    </div>
+    <a href="./landingpage.php"><img class="x" src="./assets/x-mark.png" alt="back"></a>
+  </section>
+  <script src="./script.js"></script>
+</body>
+</html>

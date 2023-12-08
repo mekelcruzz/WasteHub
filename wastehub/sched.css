@@ -1,0 +1,376 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Berkshire+Swash&family=Dhurjati&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Arimo', sans-serif;
+    font-family: 'Berkshire Swash', serif;
+    font-family: 'Dhurjati', sans-serif;
+}
+
+section{
+    background: #101010;
+    width: 100%;
+    height: 350vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 20vh 40vh 40vh 40vh 40vh 40vh 40vh 40vh 20vh;
+    grid-template-areas: 
+    "event days"
+    "event mon"
+    "event tue"
+    "event wed"
+    "event thu"
+    "event fri"
+    "event sat"
+    "event sun"
+    "event loc";
+}
+
+.shape{
+    background: #E60023;
+    width: 5%;
+    height: 40vh;
+    position: absolute;
+    top: -30%;
+    left: 80%;
+    transform: rotate(30deg);
+}
+
+.shape1{
+    background: #E60023;
+    width: 5%;
+    height: 40vh;
+    position: absolute;
+    top: -10%;
+    left: 85%;
+    transform: rotate(30deg);
+}
+
+.back{
+    grid-area: days;
+    width: 12em;
+    height: 8vh;
+    position: fixed;
+    top: 2%;
+    left: 1%;
+
+}
+
+.back img{
+    width: 40%;
+    cursor: pointer;
+}
+
+.websys{
+    grid-area: event;
+    color: #E60023;
+    letter-spacing: 0.1em;
+    font-size: 6em;
+    height: 30vh;
+    position: relative;
+    top: 6%;
+    left: 20%;
+}
+
+.collector{
+    grid-area: event;
+    background: #E60023;
+    width: 60%;
+    height: 260vh;
+    display: block;
+    position: relative;
+    top: 13%;
+    left: 20%;
+    color: #FFFFFF;
+}
+
+.collectortxt{
+    color: #101010;
+    font-size: 10em;
+    width: 450%;
+    letter-spacing: 0.1em;
+    transform: rotate(-90deg);
+    position: relative;
+    top: 25%;
+    left: -180%;
+    z-index: 2;
+}
+
+.shape2{
+    grid-area: event;
+    background: #F5F5F5;
+    width: 100%;
+    height: 40vh;
+    border: 0.5em solid #E60023;
+    border-radius: 0.5em;
+    position: relative;
+    top: 30%;
+    left: -2%;
+    transform: rotate(-70deg);
+    z-index: 1;
+}
+
+.schedtxt{
+    grid-area: event;
+    color: #101010;
+    height: 40vh;
+    font-size: 6em;
+    position: relative;
+    top: 84%;
+    left: 27%;
+    z-index: 2;
+}
+
+.shape3{
+    grid-area: event;
+    background: #F5F5F5;
+    width: 50%;
+    height: 11vh;
+    position: relative;
+    top: 89.5%;
+    left: 25%; 
+    z-index: 1;
+}
+
+.weekdays{
+    grid-area: mon;
+    color: #F5F5F5;
+    font-size: 3em;
+    position: relative;
+    top: 27%;
+}
+
+.mon{
+    grid-area: mon;
+    border-top: 0.5em solid #E60023;
+    width: 90%;
+    position: relative;
+    top: 55%;
+}
+
+.mon h1{
+    color: #E60023;
+    font-size: 5em;
+    position: relative;
+    top: -150%;
+}
+
+.mon h1 span{
+    font-size: 4em;
+    position: relative;
+    top: 0.4em;
+}
+
+.mon ul{
+    color: #A7A7A3;
+    width: 50%;
+    font-size: 1.5em;
+    position: relative;
+    top: -225%;
+    left: 40%;
+}
+
+.tue{
+    grid-area: tue;
+    border-top: 0.5em solid #E60023;
+    width: 90%;
+    position: relative;
+    top: 55%;
+}
+
+.tue h1{
+    color: #E60023;
+    font-size: 4em;
+    position: relative;
+    top: -150%;
+}
+
+.tue h1 span{
+    font-size: 5em;
+    position: relative;
+    top: 0.4em;
+}
+
+.tue ul{
+    color: #A7A7A3;
+    width: 50%;
+    font-size: 1.5em;
+    position: relative;
+    top: -225%;
+    left: 40%;
+}
+
+.wed{
+    grid-area: wed;
+    border-top: 0.5em solid #E60023;
+    width: 90%;
+    position: relative;
+    top: 55%;
+}
+
+.wed h1{
+    color: #E60023;
+    font-size: 4em;
+    position: relative;
+    top: -150%;
+}
+
+.wed h1 span{
+    font-size: 5em;
+    position: relative;
+    top: 0.4em;
+}
+
+.wed ul{
+    color: #A7A7A3;
+    width: 50%;
+    font-size: 1.5em;
+    position: relative;
+    top: -225%;
+    left: 40%;
+}
+
+.thu{
+    grid-area: thu;
+    border-top: 0.5em solid #E60023;
+    width: 90%;
+    position: relative;
+    top: 55%;
+}
+
+.thu h1{
+    color: #E60023;
+    font-size: 4em;
+    position: relative;
+    top: -150%;
+}
+
+.thu h1 span{
+    font-size: 5em;
+    position: relative;
+    top: 0.4em;
+}
+
+.thu ul{
+    color: #A7A7A3;
+    width: 50%;
+    font-size: 1.5em;
+    position: relative;
+    top: -225%;
+    left: 40%;
+}
+
+.fri{
+    grid-area: fri;
+    border-top: 0.5em solid #E60023;
+    width: 90%;
+    position: relative;
+    top: 55%;
+}
+
+.fri h1{
+    color: #E60023;
+    font-size: 4em;
+    position: relative;
+    top: -150%;
+}
+
+.fri h1 span{
+    font-size: 5em;
+    position: relative;
+    top: 0.4em;
+}
+
+.fri ul{
+    color: #A7A7A3;
+    width: 50%;
+    font-size: 1.5em;
+    position: relative;
+    top: -225%;
+    left: 40%;
+}
+
+.sat{
+    grid-area: sat;
+    border-top: 0.5em solid #E60023;
+    width: 90%;
+    position: relative;
+    top: 55%;
+}
+
+.sat h1{
+    color: #E60023;
+    font-size: 4em;
+    position: relative;
+    top: -150%;
+}
+
+.sat h1 span{
+    font-size: 5em;
+    position: relative;
+    top: 0.4em;
+}
+
+.sat ul{
+    color: #A7A7A3;
+    width: 50%;
+    font-size: 1.5em;
+    position: relative;
+    top: -225%;
+    left: 40%;
+}
+
+.sun{
+    grid-area: sun;
+    border-top: 0.5em solid #E60023;
+    width: 90%;
+    position: relative;
+    top: 55%;
+}
+
+.sun h1{
+    color: #E60023;
+    font-size: 4em;
+    position: relative;
+    top: -150%;
+}
+
+.sun h1 span{
+    font-size: 5em;
+    position: relative;
+    top: 0.4em;
+}
+
+.sun ul{
+    color: #A7A7A3;
+    width: 50%;
+    height: 20vh;
+    font-size: 1.5em;
+    position: relative;
+    top: -225%;
+    left: 40%;
+}
+
+
+.footer{
+    grid-area: loc;
+    margin-top: 5em;
+    border-top: 0.2em solid #60605c;
+    width: 200%;
+    text-align: center;
+    position: relative;
+    top: 100%;
+    left: -100%;
+}
+
+.footer p{
+    padding-top:em;
+    color: #E60023;
+    font-size: 1.6em;
+}
+
+.footer p span{
+    position: relative;
+    left: 20%;
+}

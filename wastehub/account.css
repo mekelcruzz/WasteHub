@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'PT Sans';
+}
+
+section{
+    width: 100%;
+    height: 100vh;
+    background: #F0F4F3;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+.shape1{
+    position: relative;
+    top: -4em;
+    left: 75%;
+    width: 30%;
+    height: 40vh;
+    background: #D97986;
+    border: 1 solid;
+    border-radius: 50%;
+    transform: rotate(30deg);
+}
+
+.shape2{
+    position: relative;
+    top: 30%;
+    left: -6em;
+    width: 40%;
+    height: 50vh;
+    background: #F9C33C;
+    border: 1 solid;
+    border-radius: 50%;
+    transform: rotate(30deg);
+}
+
+.content{
+    background: #FFFFFF;
+    width: 95%;
+    height: 85vh;
+    margin: auto;
+    position: absolute;
+    top:7.5%;
+    left: 2.5%;
+    border: 10 solid black;
+    border-radius: 2em;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    grid-template-areas: 
+    "signin signup";
+}
+
+#signin{
+    grid-area: signin;
+    background: #3BB398;
+    border-top-left-radius: 2em;
+    border-bottom-left-radius: 2em;
+    color: #FFFFFF;
+    visibility: visible;
+}
+
+#signin .logo{
+    font-size: 3em;
+    position: relative;
+    top: 2%;
+    left: -27%;
+}
+
+.t1{
+    color: #3d9954;
+}
+
+.t2{
+    color: #2c6e3c;
+}
+#signin h1{
+    font-size: 3.5em;
+    text-align: center;
+    position: relative;
+    top: 15%;
+}
+
+#signin p{
+    margin: 1em 6em;
+    font-size: 1.2em;
+    text-align: center;
+    position: relative;
+    top: 15%;
+}
+
+#signin button{
+    font-size: 1.7em;
+    border: 1 solid #FFFFFF;
+    border-color: #FFFFFF;
+    border-radius: 5em;
+    padding: 0.1em 1em;
+    cursor: pointer;
+    color: #FFFFFF;
+    text-align: center;
+    background: transparent;
+    position: relative;
+    top: 15%;
+    left: 34%;
+}
+
+#signup{
+    grid-area: signup;
+    width: 100%;
+    height: 100%;
+    color: #3BB398;
+    visibility: visible;
+}
+
+#signup h1{
+    text-align: center;
+    font-size: 3.5em;
+    margin: 1.7em 0 0.7em 0;
+}
+
+#signup form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#signup input{
+    margin-bottom: -2em;
+    width: 50%;
+    height: 2em;
+    font-size: 0.9em;
+    padding: 0.5em 0;
+    text-align: left;
+    color: #000000;
+    background: #F4F8F7;
+    border-color: #ffffff;
+    border: 0;
+    border-left: 0.1em solid #000000;
+}
+
+.icon{
+    width: 5%;
+    position: relative;
+    top: -0.7em;
+    left: -14em;
+}
+
+#signup button{
+    font-size: 1.7em;
+    border: 1 solid;
+    border-color: #3BB398;
+    border-radius: 5em;
+    padding: 0.1em 1em;
+    cursor: pointer;
+    color: #FFFFFF;
+    text-align: center;
+    background: #3BB398;
+    position: relative;
+}
+
+/* // */
+
+#create{
+    grid-area: signin;
+    background: #3BB398;
+    border-top-left-radius: 2em;
+    border-bottom-left-radius: 2em;
+    color: #FFFFFF;
+    visibility: hidden;
+}
+
+#create .logo{
+    font-size: 3em;
+    position: relative;
+    top: 2%;
+    left: -27%;
+}
+
+.t1{
+    color: #3d9954;
+}
+
+.t2{
+    color: #2c6e3c;
+}
+
+#create h1{
+    font-size: 3.5em;
+    text-align: center;
+    position: relative;
+    top: 15%;
+}
+
+#create p{
+    margin: 1em 6em;
+    font-size: 1.2em;
+    text-align: center;
+    position: relative;
+    top: 15%;
+}
+
+#create button{
+    font-size: 1.7em;
+    border: 1 solid #FFFFFF;
+    border-color: #FFFFFF;
+    border-radius: 5em;
+    padding: 0.1em 1em;
+    cursor: pointer;
+    color: #FFFFFF;
+    text-align: center;
+    background: transparent;
+    position: relative;
+    top: 15%;
+    left: 34%;
+}
+
+
+
+#login{
+    grid-area: signup;
+    background: #FFFFFF;
+    width: 100%;
+    height: 100%;
+    color: #3BB398;
+    border-top-right-radius: 2em;
+    border-bottom-right-radius: 2em;
+    visibility: hidden;
+}
+
+#login h1{
+    text-align: center;
+    font-size: 3.5em;
+    margin: 1.7em 0 0.7em 0;
+}
+
+#login form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#login input{
+    margin-bottom: -1em;
+    width: 50%;
+    height: 2em;
+    font-size: 0.9em;
+    padding: 0.5em 0;
+    text-align: left;
+    color: #000000;
+    background: #F4F8F7;
+    border-color: #ffffff;
+    border: 0;
+    border-left: 0.1em solid #000000;
+    position: relative;
+    top: 0.5em;
+}
+
+.icon{
+    width: 5%;
+    position: relative;
+    top: -1em;
+    left: -14em;
+}
+
+#login button{
+    font-size: 1.7em;
+    border: 1 solid;
+    border-color: #3BB398;
+    border-radius: 5em;
+    padding: 0.1em 1em;
+    cursor: pointer;
+    color: #FFFFFF;
+    text-align: center;
+    background: #3BB398;
+    position: relative;
+}
+
+.x{
+    width: 3%;
+    position: absolute;
+    top: 10%;
+    left: 93%;
+    z-index: 5;
+}
