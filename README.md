@@ -33,11 +33,19 @@ Stay informed about important announcements related to waste management, communi
 1. Landing page
       ![skin](https://github.com/mekelcruzz/WasteHub/assets/103293269/d47b6536-86a6-42ea-9226-312c3d834953)
       ![Screenshot 2023-12-09 173022](https://github.com/mekelcruzz/WasteHub/assets/103293269/ff37cf5c-d766-4b8b-a9f0-f1a9fb7d367c)
-3. Schedules
-4. Sign in
-5. Login
-6. Forum
-7. Post an Announcement
+2. Schedules   ![Screenshot 2023-12-09 173148](https://github.com/mekelcruzz/WasteHub/assets/103293269/34ee7d5a-2e85-466b-817c-6b0a17cd0ba3)
+![Screenshot 2023-12-09 173209](https://github.com/mekelcruzz/WasteHub/assets/103293269/476bf0e2-4d36-4930-a112-b662e11b24b6)
+![Screenshot 2
+![Screenshot 2023-12-09 173305](https://github.com/mekelcruzz/WasteHub/assets/103293269/22021a1b-47dc-4912-b8ea-6e842d8fd4f5)
+023-12-09 17322
+![Screenshot 2023-12-09 173253](https://github.com/mekelcruzz/WasteHub/assets/103293269/492c743c-f0cd-4f09-8d7b-f9b7948f46ef)
+7](https://github.com/mekelcruzz/WasteHub/assets/103293269/832f0a69-d9ef-4cf3-90c6-2ba671927ca8) ![Screenshot 2023-12-09 173305](https://github.com/mekelcruzz/WasteHub/assets/103293269/1c416eb7-a564-4dde-9580-b3f4d0ba6c9c)
+3. Sign in   ![Screenshot 2023-12-09 173531](https://github.com/mekelcruzz/WasteHub/assets/103293269/8c818a69-22f4-4b17-bb9c-f79cda65b589)
+4. Login ![Screenshot 2023-12-09 173551](https://github.com/mekelcruzz/WasteHub/assets/103293269/04d3b838-968e-4af4-8eed-2dc07ad34d21)
+5. Forum ![Screenshot 2023-12-09 173405](https://github.com/mekelcruzz/WasteHub/assets/103293269/5aa5748f-2bfd-489a-8b25-742a454bc4a5)
+
+6. Post an Announcement   ![Screenshot 2023-12-09 173343](https://github.com/mekelcruzz/WasteHub/assets/103293269/eb729a2d-7bf0-473c-960f-3a10d4383fd7)
+
    
 
  
