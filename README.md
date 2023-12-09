@@ -32,6 +32,7 @@ Stay informed about important announcements related to waste management, communi
 # Screenshots
 1. Landing page
       ![skin](https://github.com/mekelcruzz/WasteHub/assets/103293269/d47b6536-86a6-42ea-9226-312c3d834953)
+      ![Screenshot 2023-12-09 173022](https://github.com/mekelcruzz/WasteHub/assets/103293269/ff37cf5c-d766-4b8b-a9f0-f1a9fb7d367c)
 3. Schedules
 4. Sign in
 5. Login
