@@ -31,11 +31,12 @@ Stay informed about important announcements related to waste management, communi
 
 # Screenshots
 1. Landing page
-2. Schedules
-3. Sign in
-4. Login
-5. Forum
-6. Post an Announcement
+      ![skin](https://github.com/mekelcruzz/WasteHub/assets/103293269/d47b6536-86a6-42ea-9226-312c3d834953)
+3. Schedules
+4. Sign in
+5. Login
+6. Forum
+7. Post an Announcement
    
 
  
