@@ -29,6 +29,15 @@ Stay organized with our schedules feature. Whether you're a resident looking for
 Stay informed about important announcements related to waste management, community events, and updates. Our announcement feature ensures that you are always in the loop, making it easier for you to participate in community activities and contribute to a sustainable environment.
 
 
+# Screenshots
+1. Landing page
+2. Schedules
+3. Sign in
+4. Login
+5. Forum
+6. Post an Announcement
+   
+
  
 
 
